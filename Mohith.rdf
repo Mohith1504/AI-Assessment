@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117/"
+     xml:base="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-117="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasFeedback -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasFeedback">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#FeedbackSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasGeometricShape -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasGeometricShape">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasMathematicalTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasMathematicalTopic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathematicalTopics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasStudentModel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasStudentModel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#StudentModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#isPolygonalShape -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#isPolygonalShape">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#isProblemTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#isProblemTypeOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathematicalTopics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#providesHint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#providesHint">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#FeedbackSystem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#HintsAndClues"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasDifficultyLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasDifficultyLevel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasGeometricShape -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasGeometricShape">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasHintText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasHintText">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#HintsAndClues"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasInputMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasInputMethod">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasProgressPercentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasProgressPercentage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#StudentProgress"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasScore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasStudentModel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#hasStudentModel">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#Algebra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#Algebra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathematicalTopics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#StudentProgress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#StudentProgress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#LearningAnalytics"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#EngagementLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#AlgebraTutoringSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#AlgebraTutoringSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#CalculusTutoringSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#CalculusTutoringSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Circle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Circle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#CorrectiveFeedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#CorrectiveFeedback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#FeedbackSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Ellipse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Ellipse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#EngagementLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#EngagementLevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#LearningAnalytics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#FeedbackSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#FeedbackSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometryTutoringSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometryTutoringSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#HintsAndClues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#HintsAndClues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#FeedbackSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#InputMethod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#InputMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#UserInteractionModel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#OutputMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#LearningAnalytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#LearningAnalytics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#LinearEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#LinearEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#Algebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathematicalTopics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathematicalTopics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#OutputMethod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#OutputMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#UserInteractionModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Parallelogram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Parallelogram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Polynomial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Polynomial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#Algebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#QuadraticEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#QuadraticEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#Algebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Rectangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Rectangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Rhombus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Rhombus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Square -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Square">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#StatisticsTutoringSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#StatisticsTutoringSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#MathTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#StudentModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#StudentModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#StudentModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Triangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Triangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#GeometricShapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Trinomial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Trinomial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#Algebra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#UserInteractionModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#UserInteractionModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-113#IntelligentTutoringSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Circle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Circle">
+        <untitled-ontology-117:hasGeometricShape rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Circle"/>
+        <untitled-ontology-117:hasGeometricShape>&quot;Radius=10&quot;</untitled-ontology-117:hasGeometricShape>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Parallelogram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Parallelogram"/>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Polygon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Polygon">
+        <untitled-ontology-117:isPolygonalShape rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Polygon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#PolygonalShapes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#PolygonalShapes">
+        <untitled-ontology-117:hasGeometricShape rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Circle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Rectangle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Rectangle">
+        <untitled-ontology-117:hasGeometricShape rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Rectangle"/>
+        <untitled-ontology-117:hasGeometricShape>&quot;Length=5, Width=3&quot;</untitled-ontology-117:hasGeometricShape>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student1">
+        <untitled-ontology-117:hasStudentModel rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student1"/>
+        <untitled-ontology-117:hasProgressPercentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">75.0</untitled-ontology-117:hasProgressPercentage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student2">
+        <untitled-ontology-117:hasScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85</untitled-ontology-117:hasScore>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student2Model -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student2Model">
+        <untitled-ontology-117:hasStudentModel rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Student2Model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Triangle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Triangle">
+        <untitled-ontology-117:hasGeometricShape rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Triangle"/>
+        <untitled-ontology-117:isPolygonalShape rdf:resource="http://www.semanticweb.org/write/ontologies/2024/11/untitled-ontology-117#Polygon"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
